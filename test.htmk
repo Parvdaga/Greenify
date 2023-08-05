@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Add Bootstrap CSS CDN link -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <title>Greenify</title>
+</head>
+
+<body>
+  <header class="bg-dark">
+    <div class="container d-flex justify-content-between align-items-center py-2">
+      <div class="logo">
+        <img src="IMAGES/logo.png" alt="Logo" height="60">
+      </div>
+      <nav>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="">Community</a></li>
+          <li class="list-inline-item"><a href="projects.html">Projects</a></li>
+          <li class="list-inline-item"><a href="challenge.html">Challenges</a></li>
+        </ul>
+      </nav>
+      <div class="login">
+        <a href="signin.html" class="btn btn-outline-light">Get Started</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="cover">
+    <img src="IMAGES/banner.png" class="img-fluid" alt="Cover Image">
+
+    <h1 class="welcome"><span class="green">WELCOME TO</span> GREENIFY</h1>
+    <h3 class="welcome-2">Empowering Sustainable Living</h3>
+
+    <div class="button">
+      <a href="" class="btn btn-primary">Get Started</a>
+    </div>
+  </div>
+
+  <!-- Rest of the content... -->
+
+  <footer class="footer bg-dark text-white py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <img src="IMAGES/logo.png" alt="small logo" class="footer-img">
+        </div>
+        <div class="col-md-3">
+          <h5>Features</h5>
+          <ul>
+            <li><a href="">Learn</a></li>
+            <li><a href="challenge.html">Challenge</a></li>
+            <li><a href="projects.html">Participate</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>Contact Us</h5>
+          <ul>
+            <li><a href="signin.html">About Us</a></li>
+            <li><a href="signin.html">Join Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Add Bootstrap JS and Popper.js CDN links -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
